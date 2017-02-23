@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.Runtime.Versioning;
-using DnxProject = Microsoft.Dnx.Runtime.Project;
+//using DnxProject = Microsoft.Dnx.Runtime.Project;
 
 namespace Microsoft.CodeAnalysis.Workspaces.Dnx
 {
@@ -16,6 +16,6 @@ namespace Microsoft.CodeAnalysis.Workspaces.Dnx
 
         public string WrappedProjectPath { get; set; }
 
-        public DnxProject Project { get; set; }
+        ////public DnxProject Project { get; set; }
     }
 }

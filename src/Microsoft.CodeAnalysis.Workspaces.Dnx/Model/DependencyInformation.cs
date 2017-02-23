@@ -1,14 +1,14 @@
 using System;
 using System.Collections.Generic;
 
-using Microsoft.Dnx.Runtime;
+//using Microsoft.Dnx.Runtime;
 
 namespace Microsoft.CodeAnalysis.Workspaces.Dnx
 {
     // Represents the dependencies of a particular project
     public class DependencyInformation
     {
-        public ApplicationHostContext HostContext { get; set; }
+        //public ApplicationHostContext HostContext { get; set; }
 
         // List of references to files on disk
         public IList<string> References { get; set; }

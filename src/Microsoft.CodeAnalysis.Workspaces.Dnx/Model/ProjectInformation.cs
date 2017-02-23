@@ -2,8 +2,8 @@ using System;
 using System.Collections.Generic;
 using System.Runtime.Versioning;
 
-using Microsoft.Dnx.Compilation.CSharp;
-using DnxProject = Microsoft.Dnx.Runtime.Project;
+//using Microsoft.Dnx.Compilation.CSharp;
+//using DnxProject = Microsoft.Dnx.Runtime.Project;
 
 namespace Microsoft.CodeAnalysis.Workspaces.Dnx
 {
@@ -17,7 +17,7 @@ namespace Microsoft.CodeAnalysis.Workspaces.Dnx
 
         public FrameworkName Framework { get; set; }
 
-        public CompilationSettings CompilationSettings { get; set; }
+        //public CompilationSettings CompilationSettings { get; set; }
 
         // List of source files
         public IList<string> SourceFiles { get; set; }
@@ -25,6 +25,6 @@ namespace Microsoft.CodeAnalysis.Workspaces.Dnx
         // Dependency information
         public DependencyInformation DependencyInfo { get; set; }
 
-        public DnxProject Project { get; set; }
+        //public DnxProject Project { get; set; }
     }
 }
